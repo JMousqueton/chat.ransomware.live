@@ -69,6 +69,7 @@ CodeHTML = '''
   })();
 </script>
 <!-- End Matomo Code -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
 		<h1>Ransomware Gang Negotiations&nbsp;</h1><h2>&nbsp;by <a href="https://www.ransomware.live" targer=_blank>Ransomware.live</a></h2>
@@ -111,7 +112,8 @@ CodeHTML += '''
 </div>
 
 <h2>
-	Source: <a href="https://github.com/Casualtek/Ransomchats" target=_blank>Casualtek/Ransomchats</a> by Valéry Marchive
+	Source: <a href="https://github.com/Casualtek/Ransomchats" target=_blank>Casualtek/Ransomchats</a> by Valéry Marchive<BR></BR>
+    Code Source: <a href="https://github.com/JMousqueton/chat.ransomware.live" target=_blank><i class="fab fa-github"></i></a>
 </h2>
 </body>
 </html>
