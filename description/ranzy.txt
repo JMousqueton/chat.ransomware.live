@@ -1,0 +1,1 @@
+Ranzy Locker is a rebrand of ThunderX, a type of malware that relied on weak encryption that was, fortunately, decrypted within a month of its launch in August 2020. ThunderX was itself a rebrand of AKO Ransomware. Ranzy Locker shares a domain used for their leak site with its two ill-fated predecessors.

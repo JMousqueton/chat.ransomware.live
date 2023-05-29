@@ -1,0 +1,1 @@
+AvosLocker is new ransomware that was first observed on July 4, 2021, and follows the RaaS model. The ransomware operator of the same name, avos, advertised their affiliate program on Dread and other forums to attract affiliates. Avos Locker appends the .avos extension to the encrypted files and drops the ransom note GET_YOUR_FILES_BACK.TXT in every encrypted directory

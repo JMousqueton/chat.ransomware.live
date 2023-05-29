@@ -1,0 +1,4 @@
+LockBit 3.0 was first observed around June 2022. At this time, new infections were observed, and existing LockBit 2.0 infections were upgraded to 3.0.
+LockBit 3.0 operators offered an open Bug Bounty during the span of their operation.
+Primary new features (from 2.0 to 3.0) include support for Zcash, updated Management capabilities, and anti-analysis and evasion.
+The builder tools and source for LockBit 3.0 were “leaked” in September of 2022.

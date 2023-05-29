@@ -1,0 +1,3 @@
+As if ransomware itself wasn’t dangerous enough, a new type of attack involving ransomware is making waves in the cybersecurity community. Ransomware-as-a-Service (RaaS) operations are becoming more common and more profitable for threat actors looking to launch a variety of attacks. One such operation is known as REvil, and involved a core team of threat actors offering the malware to other attackers for a price.
+
+Although the Russian Federal Security Service claims to have dismantled REvil and charged several of the ransomware group’s members, a deeper look at this type of ransomware and RaaS can help organizations protect themselves against these types of attacks in the future.
