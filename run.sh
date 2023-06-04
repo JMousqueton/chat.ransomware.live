@@ -1,11 +1,5 @@
 #!/bin/bash
-
-
-
-if [ ! -d "data" ]; then
-    git clone https://github.com/Casualtek/Ransomchats data
-fi
-
+source ../ransomware.live/.env
 # Se placer dans le répertoire du référentiel Git
 cd ./data
 
@@ -23,14 +17,16 @@ else
   if [ $? -eq 0 ]; then
     echo "Exécution de la mise à jour ..."
     cd ..
+    curl -s \
+  --form-string "token=${PUSH_API}" \
+  --form-string "user=${PUSH_USER}" \
+  --form-string "message=New Ransoms chats has been added" \
+  https://api.pushover.net/1/messages.json > /dev/null
     python3 generate.py 
     python3 generateindex.py > ./docs/index.html
-
-    if [ ! -d "../ransomware.live" ]; then
-      cd ../ransomware.live
-      python3 negotiations.py
-      python3 ransomwatch.py markdow
-    fi
+    cd ../ransomware.live
+    python3 negotiations.py
+    python3 ransomwatch.py markdown
   else
     echo "Erreur lors de la mise à jour du référentiel."
   fi

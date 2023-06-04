@@ -1,0 +1,7 @@
+Conti is a ransomware that has been observed since 2020, believed to be distributed by a Russia-based group. All versions of Microsoft Windows are known to be affected. The United States government offered a reward of up to $10 million for information on the group in early May of 2022.
+
+The software uses its own implementation of AES-256 that uses up to 32 individual logical threads, making it much faster than most ransomware. The method of delivery is not clear. 
+
+The gang behind Conti has operated a site from which it can leak documents copied by the ransomware since 2020. The same gang has operated the Ryuk ransomware. The group is known as Wizard Spider and is based in Saint Petersburg, Russia.
+
+Once on a system it will try to delete Volume Shadow Copies. It will try to terminate a number of services using Restart Manager to ensure it can encrypt files used by them. It will disable real time monitor and uninstall the Windows Defender application. Default behaviour is to encrypt all files on local and networked Server Message Block drives, ignoring files with DLL, .exe, .sys and .lnk extensions. It is also able to target specific drives as well as individual IP addresses.

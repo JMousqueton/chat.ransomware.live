@@ -138,6 +138,14 @@ def parse_group(group_name):
         except:
             pass
 
+        if data['chat_id'] is '':
+           try:
+                date_object = dt.strptime(name[:8], "%Y%m%d")
+                chat_id = 'Date: ' + date_object.strftime("%Y-%m-%d")
+           except:
+               pass
+
+
         codeHTML += '<h1>Negotiation with <a href="https://www.ransomware.live/#/profiles?id=' +  id.lower() + '">' + group_name + '</a></h1><BR>'
         codeHTML += '<h2> ID: ' + name + '</h2>' 
         codeHTML += '<p class="comment">' + chat_id + '</p><div class="imessage">'
