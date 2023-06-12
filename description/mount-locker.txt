@@ -1,4 +1,0 @@
-According to BlackBerry, MountLocker is a Ransomware-as-a-Service (RaaS), active since July 2020
-The MountLocker ransomware was updated during early November 2020 to broaden the targeting of file types and evade security software.
-Victim’s files are encrypted using ChaCha20, and file encryption keys are encrypted using RSA-2048.
-The ransomware appears to be somewhat secure; there are no trivial weaknesses allowing for easy key recovery and decryption of data. MountLocker does however use a cryptographically insecure method for key generation that may be prone to attack.
